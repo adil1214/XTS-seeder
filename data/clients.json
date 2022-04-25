@@ -1,0 +1,116 @@
+[
+	{
+		"logo": "logo1.png",
+		"companyName": "company name 1",
+		"domain": "1",
+		"companyType": "1",
+		"collaborationModes": ["1"],
+		"website": "www.domain1.com",
+		"phoneNumber": "+212600000001",
+		"email": "client1@domain.com",
+		"active": true,
+		"agents": [
+			{
+				"email": "agent1@gmail.com",
+				"fullName": "first agent",
+				"phone": "+119191919191",
+				"position": "HR"
+			}
+		]
+	},
+	{
+		"logo": "logo2.png",
+		"companyName": "company name 2",
+		"domain": "1",
+		"companyType":"1",
+		"collaborationModes": [],
+		"website": "www.domain2.com",
+		"phoneNumber": "+212600000002",
+		"email": "client2@domain.com",
+		"active": true,
+		"agents": [
+			{
+				"email": "agent1@gmail.com",
+				"fullName": "first agent",
+				"phone": "+119191919191",
+				"position": "HR"
+			}
+		]
+	},
+	{
+		"logo": "logo3.png",
+		"companyName": "company name 3",
+		"domain": "1",
+		"companyType": "1",
+		"collaborationModes": [],
+		"website": "www.domain3.com",
+		"phoneNumber": "+212600000003",
+		"email": "client3@domain.com",
+		"active": true,
+		"agents": [
+			{
+				"email": "agent1@gmail.com",
+				"fullName": "first agent",
+				"phone": "+119191919191",
+				"position": "HR"
+			}
+		]
+	},
+	{
+		"logo": "logo4.png",
+		"companyName": "company name 4",
+		"domain": "1",
+		"companyType": "1",
+		"collaborationModes": [],
+		"website": "www.domain4.com",
+		"phoneNumber": "+212600000004",
+		"email": "client4@domain.com",
+		"active": true,
+		"agents": [
+			{
+				"email": "agent1@gmail.com",
+				"fullName": "first agent",
+				"phone": "+119191919191",
+				"position": "HR"
+			}
+		]
+	},
+	{
+		"logo": "https://x-hub.io/static/logo-white-r-6ebd93444f98cba58ec9faf514430411.png",
+		"companyName": "company name 5",
+		"domain": "1",
+		"companyType": "2",
+		"collaborationModes": [],
+		"website": "www.domain5.com",
+		"phoneNumber": "+212600000005",
+		"email": "client5@domain.com",
+		"active": true,
+		"agents": [
+			{
+				"email": "agent1@gmail.com",
+				"fullName": "first agent",
+				"phone": "+119191919191",
+				"position": "HR"
+			}
+		]
+	},
+	{
+		"logo": "logo6.png",
+		"companyName": "company name 6",
+		"domain": "1",
+		"companyType": "1",
+		"collaborationModes": [],
+		"website": "www.domain6.com",
+		"phoneNumber": "+212600000006",
+		"email": "client6@domain.com",
+		"active": true,
+		"agents": [
+			{
+				"email": "agent1@gmail.com",
+				"fullName": "first agent",
+				"phone": "+119191919191",
+				"position": "HR"
+			}
+		]
+	}
+]
