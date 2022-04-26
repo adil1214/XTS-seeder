@@ -1,7 +1,11 @@
 const axios = require('axios');
 const fs = require('fs');
+const dotenv = require('dotenv');
 
-const URI = 'http://localhost:8080/api/v1/clients';
+dotenv.config();
+
+const URI = process.env.DEV_URI || 'http://localhost:8080/api/v1/clients';
+// const URI = process.env.PREPROD_URI;
 const clientsDataPath = `${__dirname}/data/clients.json`;
 
 const addClient = (data) => axios.post(URI, data);
@@ -54,3 +58,5 @@ if (process.argv[2] === '-i') {
 } else if (process.argv[2] === '-d') {
 	deleteClients();
 }
+
+// https://rapidapi.com/mikilior1/api/Clearbit/details
